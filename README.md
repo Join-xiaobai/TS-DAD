@@ -21,20 +21,20 @@ Graph Neural Network (GNN) autoencoders experience catastrophic degradation on r
 
 ## 📊 Benchmark Results
 
-Evaluated across **8 benchmark datasets** against 16 state-of-the-art baselines under dual evaluation metrics:
+Evaluated across **8 benchmark datasets** against 17 state-of-the-art baselines under dual evaluation metrics:
 
 | Dataset | Type | Nodes | Edges | Anomalies | ROC-AUC (%) | AUPRC (%) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Amazon Books** | Organic | 1,418 | 3,695 | 28 (1.97%) | **88.29 ± 0.61** | **31.32 ± 0.84** |
-| **Amazon Disney** | Organic | 124 | 333 | 6 (4.84%) | **91.85 ± 0.52** | **44.15 ± 0.76** |
-| **Amazon Enron** | Organic | 13,533 | 176,442 | 5 (0.04%) | **79.52 ± 0.85** | **18.74 ± 0.92** |
-| **Weibo** | Organic | 8,405 | 407,963 | 868 (10.3%) | **99.64 ± 0.08** | **96.85 ± 0.12** |
-| **Reddit** | Organic | 10,984 | 168,016 | 366 (3.33%) | **71.30 ± 0.42** | **12.48 ± 0.35** |
-| **Cora** | Synthetic | 2,708 | 5,429 | 150 (5.54%) | **92.14 ± 0.38** | **68.25 ± 0.55** |
-| **CiteSeer** | Synthetic | 3,327 | 4,732 | 150 (4.51%) | **91.45 ± 0.45** | **65.80 ± 0.62** |
-| **PubMed** | Synthetic | 19,717 | 44,338 | 600 (3.04%) | **95.62 ± 0.25** | **78.40 ± 0.48** |
+| **Amazon Books** | Organic | 1,418 | 3,695 | 28 (1.97%) | **75.42 ± 0.28** | **5.60 ± 0.06** |
+| **Amazon Disney** | Organic | 124 | 335 | 6 (4.84%) | **74.65 ± 0.82** | **14.80 ± 0.40** |
+| **Amazon Enron** | Organic | 13,533 | 176,987 | 5 (0.04%) | **85.80 ± 0.38** | **0.32 ± 0.02** |
+| **Weibo** | Organic | 8,405 | 407,963 | 347 (4.13%) | **95.12 ± 0.18** | **45.85 ± 0.35** |
+| **Reddit** | Organic | 10,984 | 168,016 | 366 (3.33%) | **65.40 ± 0.15** | **7.20 ± 0.10** |
+| **Cora** | Synthetic | 2,708 | 5,429 | 150 (5.54%) | **97.85 ± 0.10** | **81.50 ± 0.18** |
+| **CiteSeer** | Synthetic | 3,327 | 4,732 | 150 (4.51%) | **98.32 ± 0.08** | **83.20 ± 0.15** |
+| **PubMed** | Synthetic | 19,717 | 44,338 | 600 (3.04%) | **98.46 ± 0.06** | **82.40 ± 0.12** |
 
-*Efficiency Highlight*: Delivers up to **353× empirical training speedup** over message-passing graph autoencoders.
+*Efficiency Highlight*: Delivers up to **353× empirical training speedup** over message-passing graph autoencoders on dense networks.
 
 ---
 
@@ -71,9 +71,10 @@ python scripts/run_benchmark.py
 
 ```bibtex
 @article{tsdad,
-  title={Attribute-Preserving Topology-Decoupled Learning for Real-World Attributed Graph Anomaly Detection},
-  author={Anonymous},
-  journal={Preprint}
+  title={Attribute-Preserving Topology-Decoupled Representation Learning for Attributed Graph Anomaly Detection},
+  author={Ma, Wanjun and Shi, Wei and Zhou, Yiting and Tang, Xiwei},
+  journal={Neural Networks},
+  year={2026}
 }
 ```
 
