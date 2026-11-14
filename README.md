@@ -34,7 +34,7 @@ Evaluated across **8 benchmark datasets** against 17 state-of-the-art baselines 
 | **CiteSeer** | Synthetic | 3,327 | 4,732 | 150 (4.51%) | **98.32 ± 0.08** | **83.20 ± 0.15** |
 | **PubMed** | Synthetic | 19,717 | 44,338 | 600 (3.04%) | **98.46 ± 0.06** | **82.40 ± 0.12** |
 
-*Efficiency Highlight*: Delivers up to **353× empirical training speedup** over message-passing graph autoencoders on dense networks.
+*Efficiency Highlight*: Delivers empirical training speedups of **up to two orders of magnitude** (up to 353× on dense topologies) over message-passing graph autoencoders.
 
 ---
 
@@ -71,7 +71,7 @@ python scripts/run_benchmark.py
 
 ```bibtex
 @article{tsdad,
-  title={Attribute-Preserving Topology-Semantic Decoupled Representation Learning for Attributed Graph Anomaly Detection},
+  title={TS-DAD: Attribute-Preserving Topology-Semantic Decoupled Learning for Real-World Attributed Graph Anomaly Detection},
   author={Ma, Wanjun and Shi, Wei and Zhou, Yiting and Tang, Xiwei},
   journal={Expert Systems with Applications},
   year={2026}
