@@ -73,7 +73,7 @@ python scripts/run_benchmark.py
 @article{tsdad,
   title={TS-DAD: Attribute-Preserving Topology-Semantic Decoupled Learning for Real-World Attributed Graph Anomaly Detection},
   author={Ma, Wanjun and Shi, Wei and Zhou, Yiting and Tang, Xiwei},
-  journal={Expert Systems with Applications},
+  journal={Neural Networks},
   year={2026}
 }
 ```
