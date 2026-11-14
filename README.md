@@ -1,9 +1,9 @@
-# TS-DAD: Attribute-Preserving Topology-Decoupled Learning for Attributed Graph Anomaly Detection
+# TS-DAD: Attribute-Preserving Topology-Semantic Decoupled Learning for Attributed Graph Anomaly Detection
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official PyTorch implementation of **TS-DAD** (*Attribute-Preserving Topology-Decoupled Learning for Real-World Attributed Graph Anomaly Detection*).
+Official PyTorch implementation of **TS-DAD** (*Attribute-Preserving Topology-Semantic Decoupled Learning for Real-World Attributed Graph Anomaly Detection*).
 
 ---
 
@@ -71,7 +71,7 @@ python scripts/run_benchmark.py
 
 ```bibtex
 @article{tsdad,
-  title={Attribute-Preserving Topology-Decoupled Representation Learning for Attributed Graph Anomaly Detection},
+  title={Attribute-Preserving Topology-Semantic Decoupled Representation Learning for Attributed Graph Anomaly Detection},
   author={Ma, Wanjun and Shi, Wei and Zhou, Yiting and Tang, Xiwei},
   journal={Neural Networks},
   year={2026}
